@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.xtext.example.mydsl.tests.MyDslParsingTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.32 sec <<< FAILURE! - in org.xtext.example.mydsl.tests.MyDslParsingTest
+loadModel  Time elapsed: 1.314 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected errors: XtextSyntaxDiagnostic: null:1 mismatched input 'Xtext' expecting ':' ==> expected: <true> but was: <false>
+	at org.xtext.example.mydsl.tests.MyDslParsingTest.loadModel(MyDslParsingTest.java:42)
+

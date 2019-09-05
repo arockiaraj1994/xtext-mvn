@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.example.mydsl
+Bundle-SymbolicName: org.xtext.example.mydsl; singleton:=true
+Export-Package: org.xtext.example.mydsl.myDsl.util,org.xtext.example.m
+ ydsl.parser.antlr.internal,org.xtext.example.mydsl.scoping,org.xtext.
+ example.mydsl.services,org.xtext.example.mydsl.generator,org.xtext.ex
+ ample.mydsl.validation,org.xtext.example.mydsl,org.xtext.example.myds
+ l.myDsl.impl,org.xtext.example.mydsl.myDsl,org.xtext.example.mydsl.se
+ rializer,org.xtext.example.mydsl.parser.antlr,org.xtext.example.mydsl
+ .jvmmodel
+Bundle-Name: org.xtext.example.mydsl
+Bundle-Version: 1.0.0.201812121247
+Require-Bundle: org.eclipse.xtext,org.eclipse.xtext.xbase,org.eclipse.
+ equinox.common;bundle-version="3.5.0",org.eclipse.emf.ecore,org.eclip
+ se.xtext.xbase.lib;bundle-version="2.14.0",org.eclipse.xtext.util,org
+ .eclipse.emf.common,org.eclipse.xtend.lib;bundle-version="2.14.0",org
+ .antlr.runtime;bundle-version="[3.2.0,3.2.1)",org.eclipse.xtext.commo
+ n.types,org.objectweb.asm;bundle-version="[6.2.1,6.3.0)";resolution:=
+ optional
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: My Company
+Import-Package: org.apache.log4j
+
